@@ -1,0 +1,5 @@
+{
+	"clientId": "Your client Id",
+	"clientSecret": "Client secret",
+	"redirectUri": "http://localhost:8080/getAccessToken"
+}

@@ -1,0 +1,18 @@
+
+<div class="col-xs-12 profile-pic" style="text-align:center;">
+  <img src="{{posts.dp}}" style="border-radius:50%">
+  <h2>{{posts.name}}</h2>
+  <h3>{{posts.username}}</h3>
+  <h4>{{posts.bio}}</h4>
+</div>
+<div class="col-xs-12" style="text-align:left">
+  <div>
+    <label for="tags">Tags:</label>
+    <input type="text" #tags placeholder="eg: flower">
+    <button (click)="onClick(tags.value)">Search</button>
+  </div> 
+</div>
+<div class="col-xs-12 tags-pic" style="text-align:center;">
+  <img src="{{pics.url}}" >
+</div>
+
